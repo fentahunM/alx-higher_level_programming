@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Square module.
 This module contains a class that defines a square and its size and checking
-if the given values are right, and a setter and getter methods to set or get
+if the given valus is right, and a setter and getter methods to set or get
 it. There's also an area method that returns the area of the square.
 """
 
@@ -18,7 +18,7 @@ class Square():
 
     @property
     def size(self):
-        """Get or set the size of the square."""
+        """Get  the size of the square."""
         return self.__size
 
     @size.setter
