@@ -9,7 +9,7 @@ class Square():
     """Defines a square."""
 
     def __init__(self, size):
-        """Sets the necessary attributes for the Square object.
+        """Sets or initializes the necessary attributes for the Square object.
         Args:
             size (int): the size of one edge of the square.
         """
