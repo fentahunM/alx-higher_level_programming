@@ -8,7 +8,7 @@ import math
 
 
 class MagicClass():
-    """Defines a MagicClass object."""
+    """Defines MagicClass object."""
 
     def __init__(self, radius=0):
         """Sets the necessary attributes for the MagicClass object.
@@ -21,9 +21,9 @@ class MagicClass():
         self.__radius = radius
 
     def area(self):
-        """Returns the current circle area."""
+        """Return the current circle area."""
         return self.__radius ** 2 * math.pi
 
     def circumference(self):
-        """Returns the current circle circumference."""
+        """Return the current circle circumference."""
         return 2 * math.pi * self.__radius

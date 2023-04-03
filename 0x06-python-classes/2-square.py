@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Square module.
 This module contains a class that defines a square and init method that
-sets its size and checking if the given values are right.
+sets its size and check if the given value is right.
 """
 
 
