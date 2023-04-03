@@ -37,12 +37,13 @@ def get_input():
 
 
 def is_attacking(pos0, pos1):
-    '''Checks if the positions of two queens are in an attacking mode.
+    '''Checks if the positions of the two queens are in an attacking mode.
     Args:
         pos0 (list or tuple): The first queen's position.
         pos1 (list or tuple): The second queen's position.
     Returns:
-        bool: True if the queens are in an attacking position else False.
+
+        bool: True if the queens are in an attacking position else it returns False.
     '''
     if (pos0[0] == pos1[0]) or (pos0[1] == pos1[1]):
         return True
